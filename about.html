@@ -86,20 +86,42 @@
                 class="nav__wrap collapse navbar-collapse"
               >
                 <ul class="nav__menu">
-                  <li class="nav">
+                  <li class="nav__dropdown">
                     <a href="index.html" aria-haspopup="true">Home</a>
                   </li>
-                  <li class="nav active">
-                    <a href="./about.html" aria-haspopup="true">About</a>
-                  </li>
-                  <li class="nav">
+                  <li class="nav__dropdown">
                     <a href="./portfolio.html" aria-haspopup="true">Works</a>
+                    <i
+                      class="ui-arrow-down nav__dropdown-trigger"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    ></i>
+                    <ul class="nav__dropdown-menu">
+                      <li><a href="./portfolio.html">Portfolio</a></li>
+                      <li>
+                        <a href="./portfolio-gallery.html">Portfolio Gallery</a>
+                      </li>
+                    </ul>
                   </li>
-                  <li class="nav">
-                    <a href="blog.html" aria-haspopup="true">Blog</a>
+                  <li class="nav__dropdown active">
+                    <a href="index.html" aria-haspopup="true">About</a>
+                    <i
+                      class="ui-arrow-down nav__dropdown-trigger"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    ></i>
+                    <ul class="nav__dropdown-menu">
+                      <li><a href="./about.html">The Firm</a></li>
+                      <li><a href="./services.html">What We Do</a></li>
+                    </ul>
                   </li>
-                  <li class="nav">
+                  <li class="nav__dropdown">
                     <a href="./contact.html" aria-haspopup="true">Career</a>
+                  </li>
+                  <li class="nav__dropdown">
+                    <a href="blog.html" aria-haspopup="true">Blog</a>
                   </li>
                 </ul>
                 <!-- end menu -->
