@@ -804,7 +804,92 @@
                 <div class="title-row">
                   <p class="subtitle">Contact</p>                  
                 </div>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeazvGRF1PL4oKRH9dU3YL_hXFSQXW2zD-5lRtkFZTQF8CWvw/viewform?embedded=true" width="350" height="1060" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>            
+                <h2 class="section-title">Get a Free Quote</h2>
+                <p class="mb-40">
+                  If you have any question about project cost, get in touch.
+                </p>
+                <!-- Form -->    
+                <form
+                  id="contact-form"
+                  class="contact-form material"
+                  method="post"
+                  action="#"
+                >
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <!-- Name -->
+                      <div class="material__form-group form-group">
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          class="form-input material__input"
+                          required=""
+                        />
+                        <label for="name" class="material__label"
+                          >Name
+                          <abbr title="required" class="required">*</abbr>
+                        </label>
+                        <span class="material__underline"></span>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <!-- Email -->
+                      <div class="material__form-group form-group">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          class="form-input material__input"
+                          required=""
+                        />
+                        <label for="email" class="material__label"
+                          >Email
+                          <abbr title="required" class="required">*</abbr>
+                        </label>
+                        <span class="material__underline"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Subject -->
+                  <div class="material__form-group form-group">
+                    <input
+                      type="text"
+                      name="subject"
+                      id="subject"
+                      class="form-input material__input"
+                    />
+                    <label for="subject" class="material__label"
+                      >Subject
+                    </label>
+                    <span class="material__underline"></span>
+                  </div>
+
+                  <div class="material__form-group form-group">
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="7"
+                      class="form-input material__input"
+                      required=""
+                    ></textarea>
+                    <label for="message" class="material__label"
+                      >Message
+                      <abbr title="required" class="required">*</abbr>
+                    </label>
+                    <span class="material__underline"></span>
+                  </div>
+
+                  <input
+                    type="submit"
+                    class="btn btn--lg btn--color btn--button"
+                    value="Send Message"
+                    id="submit-message"
+                  />
+                  <div id="msg" class="message"></div>
+                </form>
+                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeazvGRF1PL4oKRH9dU3YL_hXFSQXW2zD-5lRtkFZTQF8CWvw/viewform?embedded=true" width="350" height="1060" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>             -->
 <!-- Google Map -->
               <!-- <div class="col-lg-7 offset-lg-1">
                 
